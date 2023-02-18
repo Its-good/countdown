@@ -1,4 +1,4 @@
-var waiting=prompt("What is it for which you are waiting?");
+var waiting=prompt("Which event are you waiting for?");
 var waitDate=prompt("When is it?");
 document.querySelector(".waiting").innerHTML="Waiting for "+waiting;
 waitDate=new Date(waitDate);
